@@ -51,16 +51,16 @@ header h1 {
   display: flex;
   list-style: none;
 }
-.menubar li:hover {
-  color: red;
-  cursor: pointer;
-  border-right: red solid 1px;
-  padding: 0 10px;
-  border-left: red solid 1px;
-}
+
 .menubar li {
   margin: 0 10px;
+  border-bottom: 2px solid rgba(255, 0, 0, 0);
 }
+.menubar li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid red;
+}
+
 /* memberikan margin kanan untuk li terakhir */
 .menubar li:last-child {
   margin-right: 20px;
